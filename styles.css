@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url(https://fonts.google.com/specimen/Karla);
+@media (max-width: 700px) {
+    div.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+
+    }
+    div.comunity {
+      border-radius: 10px 10px 0px 0px;
+      width: 350px;
+    }
+    div.subscription {
+      border-radius: 0px 0px 0px 0px;
+    }
+    div.why {
+      border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    div.container {
+        width: 700px;
+    }
+
+    div.comunity {
+      border-radius: 10px 10px 0px 0px;
+      width: 700px;
+    }
+    div.subscription {
+      border-radius: 0px 0px 0px 10px;
+    }
+    div.why {
+        border-radius: 0px 0px 10px 0px;
+    }
+  }
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', Helvetica, sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+section.body {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    padding: 1px;
+    border: 10 px solid black;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-bottom: 240px;
+}
+
+div.comunity{
+    background-color: white;
+    margin-bottom: -0px;
+    padding: 10px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+div.why {
+    float: right;
+    width: 350px;
+    height: 240px;
+    background-color: hsl(179, 90%, 41%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.subscription {
+    float: left;
+    width: 350px;
+    height: 240px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: black;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+p.grey {
+    color: hsl(218, 22%, 67%);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h4 {
+    color: white;
+    padding: 0px 30px 0px 30px;
+}
+
+#green {
+    color: hsl(71, 73%, 54%);
+}
+
+button {
+    background-color:hsl(71, 82%, 47%);
+    color: white;
+    padding: 15px 110px 15px 110px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    margin: auto 30px auto 30px;
+}
+
+p {
+    color: white;
+    padding: 0px 30px 0px 30px;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+h3 {
+    color: hsl(179, 90%, 41%);
+    padding: 20px 30px 0px 30px;
+}
+
+p#why {
+    font-size: 13px;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+p.dollar {
+    font-size: 30px;
+    font-weight: 900;
+    display: inline-block;
+    margin: 0px 0px 0px auto;
+    padding: 0px 0px 0px auto;
+}
+
+p.month{
+    display: inline-block;
+    font-size: 15px;
+    opacity: 0.5;
+    margin: 0px;
+    padding: 0px;
+}
+
